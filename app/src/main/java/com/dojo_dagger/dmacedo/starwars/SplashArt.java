@@ -1,10 +1,10 @@
 package com.dojo_dagger.dmacedo.starwars;
 
-import android.content.Intent;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.ProgressBar;
+        import android.content.Intent;
+        import android.os.Handler;
+        import android.support.v7.app.AppCompatActivity;
+        import android.os.Bundle;
+        import android.widget.ProgressBar;
 
 public class SplashArt extends AppCompatActivity {
 
@@ -42,11 +42,9 @@ public class SplashArt extends AppCompatActivity {
                 }
                 Intent intent = new Intent(SplashArt.this, MainActivity.class);
                 startActivity(intent);
-            }
-
-        }).start();
+            }}).start();
 
     }
 
-    }
+}
 
